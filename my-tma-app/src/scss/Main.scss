@@ -1,0 +1,86 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+  background-color: $background-color;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Отступ снизу */
+}
+
+.income-box, .subscribers-box {
+  background-color: #282828; /* Темно-серый фон */
+  color: white; /* Белый текст */
+  padding: 15px;
+  border-radius: 10px; /* Закругленные углы */
+  text-align: center;
+}
+
+.income-value, .subscribers-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.league, .level {
+  font-size: 0.9rem;
+  color: #999; /* Светло-серый цвет для лиги и уровня */
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.avatar-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Отступ между аватаром/именем и кнопкой */
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.settings-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.daily-bonus {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Центрируем содержимое */
+  margin-top: 10px; /* Отступ сверху */
+}
+
+.bonus-label {
+  font-size: 0.9rem;
+  margin-right: 5px;
+}
+
+.bonus-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* ... (на потом еще добавим) */
