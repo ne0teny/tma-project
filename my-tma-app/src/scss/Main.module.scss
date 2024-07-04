@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.iphone13143Child {
+  width: 394px;
+  position: relative;
+  height: 120px;
+  z-index: 0;
+}
+.div {
+  width: 91px;
+  position: relative;
+  display: inline-block;
+}
+.frameChild {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  object-fit: cover;
+}
+.div1 {
+  position: relative;
+  font-weight: 600;
+}
+.instanceParent {
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
+  font-size: 14px;
+  color: #fff;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.pointBlock {
+  flex: 1;
+  border-radius: 14px;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 4px;
+}
+.div2 {
+  position: relative;
+}
+.icon {
+  width: 12px;
+  position: relative;
+  height: 12px;
+}
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.icon1 {
+  width: 16px;
+  position: relative;
+  height: 16px;
+}
+.pointBlockParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.blockOfInfoInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.skufsdff {
+  width: 69px;
+  position: relative;
+  display: inline-block;
+  height: 15px;
+  flex-shrink: 0;
+}
+.icon2 {
+  width: 14px;
+  position: relative;
+  height: 14px;
+}
+.pointBlock2 {
+  flex: 1;
+  border-radius: 14px;
+  background-color: #191919;
+  border: 1px solid #c6d101;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 8px 6px;
+}
+.level89 {
+  align-self: stretch;
+  position: relative;
+}
+.progressBarBackground {
+  width: 50px;
+  border-radius: 32px;
+  background: linear-gradient(-68.48deg, #e1ff02, #6a7800 98%);
+  height: 4px;
+}
+.progressBarBackgroundWrapper {
+  align-self: stretch;
+  border-radius: 28px;
+  background-color: #191919;
+  height: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 13px 2px 2px;
+  box-sizing: border-box;
+}
+.frameWrapper {
+  width: 86px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.level89Parent {
+  flex: 1;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  color: #aeaeae;
+}
+.pointBlockGroup {
+  width: 204px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  color: #fff;
+}
+.blockOfInfo {
+  align-self: stretch;
+  width: 216px;
+  border-radius: 16px;
+  background-color: #2e2e2e;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  box-sizing: border-box;
+  gap: 8px;
+}
+.avatarIcon {
+  width: 32px;
+  position: relative;
+  border-radius: 6px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.namee {
+  width: 61px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.meme {
+  width: 61px;
+  position: relative;
+  font-size: 10px;
+  display: inline-block;
+}
+.nameAndRunk {
+  width: 61px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.avatarParent {
+  width: 126px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 2px;
+  box-sizing: border-box;
+  gap: 4px;
+}
+.p {
+  margin: 0;
+}
+.div4 {
+  position: relative;
+  font-weight: 600;
+  z-index: 0;
+}
+.imageIcon {
+  width: 30px;
+  position: absolute;
+  margin: 0 !important;
+  top: 13px;
+  left: 95px;
+  height: 30px;
+  object-fit: cover;
+  z-index: 1;
+}
+.div5 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 3px);
+}
+.notificationError {
+  width: 14px;
+  position: absolute;
+  margin: 0 !important;
+  top: -8px;
+  left: 103px;
+  border-radius: 23px;
+  background-color: #ff0000;
+  height: 14px;
+  z-index: 2;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 3px;
+  position: relative;
+  gap: 10px;
+}
+.everyDayBonus {
+  width: 126px;
+  flex: 1;
+  border-radius: 14px;
+  background-color: #191919;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 4px 10px 6px;
+  box-sizing: border-box;
+}
+.profileBlock {
+  align-self: stretch;
+  border-radius: 16px;
+  background-color: #2e2e2e;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px;
+  gap: 6px;
+  text-align: left;
+  color: #fff;
+}
+.blockOfInfoParent {
+  width: 358px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  z-index: 1;
+}
+.component13Icon {
+  width: 36px;
+  position: relative;
+  height: 36px;
+  object-fit: cover;
+}
+.component13Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.frameItem {
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 179px);
+  width: 358px;
+  height: 377px;
+}
+.frameInner {
+  position: absolute;
+  top: 32px;
+  left: calc(50% - 179px);
+  width: 358px;
+  height: 351px;
+}
+.instanceChild {
+  width: 44px;
+  position: relative;
+  height: 19px;
+}
+.div7 {
+  position: relative;
+  line-height: 110%;
+  font-weight: 600;
+}
+.instanceContainer {
+  position: absolute;
+  top: 393px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.instanceGroup {
+  align-self: stretch;
+  position: relative;
+  height: 412px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: 14px;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  z-index: 2;
+  font-size: 34px;
+  color: #fff;
+}
+.iphoneXhomeIndicatorhomeIChild {
+  position: absolute;
+  bottom: 9px;
+  left: calc(50% - 66.5px);
+  border-radius: 100px;
+  background-color: rgba(174, 168, 178, 0.2);
+  width: 134px;
+  height: 5px;
+}
+.iphoneXhomeIndicatorhomeI {
+  width: 375px;
+  position: absolute;
+  margin: 0 !important;
+  top: 810px;
+  left: 7.5px;
+  height: 34px;
+  z-index: 3;
+}
+.component11Child {
+  width: 32px;
+  position: relative;
+  height: 32px;
+}
+.home {
+  width: 46px;
+  position: relative;
+  display: inline-block;
+}
+.component11 {
+  flex: 1;
+  border-radius: 12px;
+  background-color: #c6d101;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 10px;
+  color: #0c0c0c;
+}
+.frameContainer {
+  flex: 1;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 10px;
+}
+.component11Parent {
+  width: 358px;
+  margin: 0 !important;
+  position: absolute;
+  top: 739px;
+  left: 16px;
+  border-radius: 16px;
+  background-color: #303030;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px;
+  box-sizing: border-box;
+  gap: 4px;
+  z-index: 4;
+  color: #666;
+}
+.iphone13143 {
+  width: 100%;
+  position: relative;
+  background-color: #191919;
+  height: 844px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 16px;
+  box-sizing: border-box;
+  gap: 16px;
+  text-align: center;
+  font-size: 12px;
+  color: #aeaeae;
+  font-family: Inter;
+}
+
+
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+body {
+  	margin: 0; line-height: normal;
+}
