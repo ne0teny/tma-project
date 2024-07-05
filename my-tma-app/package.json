@@ -48,3 +48,7 @@
     ]
   }
 }
+
+"homepage": "https://<ne0teny>.github.io/<tma-project>/",
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
