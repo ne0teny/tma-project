@@ -1,30 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
+import { HashRouter } from 'react-router-dom';
 import './index.css';
-import Main from './Main';
-import Loading from './Loading';
+import App from './App'; // Импорт компонента App
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
-
-function App() {
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    // Имитируем загрузку данных
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 9000); // Установите время загрузки по своему усмотрению
-  }, []);
-
-  return isLoading ? <Loading /> : <Main />;
-}
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
 root.render(
   <React.StrictMode>
-    <App />
+    <HashRouter>       
+      <App />
+    </HashRouter>
   </React.StrictMode>
 );
 
