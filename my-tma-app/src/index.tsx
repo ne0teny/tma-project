@@ -1,19 +1,31 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Main from './Main'; // Import your Main component
+import Main from './Main';
+import Loading from './Loading';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Имитируем загрузку данных
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 9000); // Установите время загрузки по своему усмотрению
+  }, []);
+
+  return isLoading ? <Loading /> : <Main />;
+}
+
 root.render(
   <React.StrictMode>
-    <Main />        // Render the Main component instead of App
+    <App />
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
