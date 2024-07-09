@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Main from './Main';
+import Main from './Homescreen';
 import Mine from './Mine';
 import Earn from './Earn';
 import Friends from './Friends';
@@ -53,3 +53,4 @@ function App() {
 }
 
 export default App;
+  
